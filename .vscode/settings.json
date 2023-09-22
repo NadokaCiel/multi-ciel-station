@@ -1,0 +1,24 @@
+
+// Place your settings in this file to overwrite default and user settings.
+{
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+  "path-intellisense.ignoreTsConfigBaseUrl": true,
+  "path-intellisense.absolutePathTo": "${workspaceRoot}/src",
+  "json.schemas": [
+    {
+      "fileMatch": ["/app.json"],
+      "url": "https://raw.githubusercontent.com/bugszhou/mini-program-json-schema/main/src/wechatApp.json"
+    },
+    {
+      "fileMatch": ["/index.json"],
+      "url": "https://raw.githubusercontent.com/bugszhou/mini-program-json-schema/main/src/wechatPage.json"
+    }
+  ],
+  "cSpell.words": [
+    "Ciel",
+    "miniapp",
+    "wechat"
+  ]
+}

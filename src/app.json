@@ -1,0 +1,16 @@
+{
+    "pages":[
+        "app/main/pages/index/index"
+    ],
+    "networkTimeout": {
+        "request": 10000
+    },
+    "window":{
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Ciel实验室",
+        "navigationBarTextStyle":"black"
+    },
+    "debug": true
+}
+
+
