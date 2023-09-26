@@ -9,7 +9,7 @@ class CommonHttp extends CrossHttp {
   @post("/wechat/miniapp/v1/userInfo", {
     schema: getQueryUserInfoSchema,
     skipSign: false,
-    requireToken: false,
+    // requireToken: true,
   })
   async queryUserInfo(): Promise<
     [ReturnData<IQueryUserInfoDO>, typeof ReturnData]

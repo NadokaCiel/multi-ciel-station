@@ -6,12 +6,12 @@ APP_ID: ""
 
 # 接口配置
 HOST: https://nadokaciel.cn
-AUTH_LOGIN_API: /wechat/miniapp/v1/auth
+AUTH_LOGIN_API: /mini/wechat/v1/auth
 API_APP_KEY: ""
 API_APP_CODE: ""
 
 # 接口配置
-ALIAPP_AUTH_LOGIN_API: /alipay/miniapp/v1/auth
+ALIAPP_AUTH_LOGIN_API: /mini/alipay/v1/auth
 ALIAPP_API_APP_KEY: ""
 ALIAPP_API_APP_CODE: ""
 
